@@ -1,115 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 
 <head>
-  <!-- Basic -->
+  <!-- Metadatos básicos -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="BICLOUDS" />
-  <link rel="stylesheet" href="main.css">
-  <!-- GOOGLE FONTs -->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
-  <!-- FONT AWESOME -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <!-- ANIMATE CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
   <title>TEADIDACT</title>
 
+  <!-- Estilos personalizados y fuentes -->
+  <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 
-
-  <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <!-- progress barstle -->
+  <!-- Bootstrap y otros estilos -->
+  <link rel="stylesheet" href="css/bootstrap.css" />
   <link rel="stylesheet" href="css/css-circular-prog-bar.css">
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Raleway:400,600&display=swap" rel="stylesheet">
-  <!-- font wesome stylesheet -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
   <link rel="stylesheet" href="button.css">
-
 </head>
 
 <body>
+  <!-- Contenedor principal -->
   <div class="top_container">
-    <!-- header section strats -->
+    <!-- Sección de encabezado -->
     <header class="header_section">
       <div class="container">
-        <nav class="navbar navbar-expand-lg custom_nav-container ">
-          <a class="navbar-brand" href="index.html">
-           
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex ml-auto flex-column flex-lg-row align-items-center">
-              <ul class="navbar-nav  ">
-               
-                <li class="nav-item ">
-                  <a class="nav-link" href="Mision.html"> Mision </a>
-                </li>
-
-                <li class="nav-item ">
-                  <a class="nav-link" href="admission.html"> ¿Qué hacemos? </a>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="Mision.html">Misión</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="porque.html"> ¿Quiénes somos? </a>
+                  <a class="nav-link" href="admission.html">¿Qué hacemos?</a>
                 </li>
-
+                <li class="nav-item">
+                  <a class="nav-link" href="porque.html">¿Quiénes somos?</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link" href="contactanos.html">Contáctanos</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="login.html">Inicio</a>
                 </li>
-
+                <!-- Menú desplegable -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Más opciones
+                  </a>
+                  <div class="dropdown-menu custom-dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item custom-dropdown-item" href="#">Opción 1</a>
+                    <a class="dropdown-item custom-dropdown-item" href="#">Opción 2</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item custom-dropdown-item" href="#">Opción 3</a>
+                  </div>
+                </li>
               </ul>
             </div>
+          </div>
         </nav>
       </div>
     </header>
-    <section class="hero_section ">
-      <div class="hero-container container">
-        <div class="hero_detail-box">
-          <p class="text-right"><img src="images/hero.png" alt="" class="img-fluid"></p>
 
-          <h2>
-            Es un conjunto de aplicaciones gratuitas
-          </h2>
-          <div class="">
-            <a href="" class="call_to-btn btn_white-border">
-              Mas info
-            </a>
-          </div>
-        </div>
+    <!-- Sección de héroe -->
+<section class="hero_section">
+  <div class="hero-container container">
+    <div class="hero_detail-box">
+      <div class="text-right">
+        <img src="images/hero.png" alt="Hero Image" class="img-fluid">
       </div>
-    </section>
+      <h2>Es un conjunto de aplicaciones gratuitas</h2>
+      <div>
+        <a href="#" class="call_to-btn btn_white-border">Más info</a>
+      </div>
+    </div>
   </div>
-  <!-- end header section --> 
-      
-  <!-- footer section -->
-  <section class="container-fluid footer_section">
-    <p>
-      Copyright &copy; 2024 All Rights Reserved By TEADIDACT
-    </p>
-  </section>
-  <!-- footer section -->
+</section>
+<!-- Fin de la sección de encabezado -->
 
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.js"></script>
+  
 
- 
+  <!-- Scripts -->
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 
 </html>
