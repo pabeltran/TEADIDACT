@@ -254,12 +254,22 @@ a:focus {
 .hero_img-container img {
   width: 30%;
 }
+.img-container {
+  position: relative;
+}
 
+.img-container img {
+  position: absolute;
+  right: 0;
+  vertical-align: right;
+  border-style: none;
+}
 .hero_detail-box {
   color: #fefeff;
 }
 
-.hero_detail-box h1 {
+.hero_detail-box h2 {
+  float: right;
   font-size: 50px;
   color: #fefeff;
   font-weight: 600;
